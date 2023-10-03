@@ -1,0 +1,2 @@
+guardarLibrosLS(libros);
+renderLibros();

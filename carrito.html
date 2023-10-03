@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros Lema | Carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <ul class="nav d-flex align-items-center">
+                    <li class="nav-item">
+                       <a class="nav-link active" href="index.html">
+                        <img src="./images/logo-803639208-1642877328-742d5e30613ee732ca7c8ec46ed878501642877328-480-0.webp" alt="logo" width="240">
+                       </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success fw-bold" href="index.html">Libros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success fw-bold" href="index.html">Aventura y Ciencia Ficción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success fw-bold" href="index.html">Biografías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success fw-bold" href="index.html">Juveniles</a>
+                    </li>                 
+                </ul>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end">
+                <a href="carrito.html" id="botonCarrito" title="Ir al Carrito" class="btn btn-outline-success position-relative">
+                    <img width="30" height="30" src="https://img.icons8.com/officel/16/shopping-cart.png" alt="carrito"/>
+                    <span id="totalCarrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div id="contenido" class="row"></div>
+    </div>
+
+    <div class="container-fluid bg-success-subtle">
+        <div class="row">
+            <div class="col-5 d-flex flex-column align-items-center">
+                <h3 class="text-success">Contactanos</h3>
+                <div class="d-flex">
+                    <img width="24" height="24" src="https://img.icons8.com/officel/16/phone.png" alt="telefono"/>
+                    <p class="mx-2 text-success">011 5340-2542</p>
+                </div>
+                <div class="d-flex">
+                    <img width="24" height="24" src="./images/icons8-mailbox-50.png" alt="mail">
+                    <p class="mx-2 text-success">info@lemalibros.com</p>
+                </div>
+                <div class="d-flex">
+                    <img width="24" height="24" src="https://img.icons8.com/?size=80&id=uRDNT19YdNmt&format=png" alt="direccion">
+                    <p class="mx-2 text-success">Av. Jujuy 135 - Balvanera - CABA</p>
+                </div>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-evenly">
+                <div>
+                    <a href="#"><img src="./images/icons8-instagram-64.png" alt="instagram" width="50" height="50">
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><img src="./images/icons8-facebook-64.png" alt="facebook" width="50" height="50">
+                    </a>
+                </div>
+            </div>
+            <div class="col-5">
+                <ul class="nav d-flex flex-column align-items-center my-3">
+                    <li class="nav-item">
+                      <a class="nav-link text-success" href="#">Política de Privacidad</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-success" href="#">Defensa del Consumidor</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-success" href="#">Protección de datos personales</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/main_carrito.js"></script>
+</body>
+</html>
