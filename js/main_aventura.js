@@ -1,0 +1,2 @@
+renderAventura();
+renderBotonCarrito();

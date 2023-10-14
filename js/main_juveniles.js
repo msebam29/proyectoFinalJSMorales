@@ -1,0 +1,2 @@
+renderJuveniles();
+renderBotonCarrito();

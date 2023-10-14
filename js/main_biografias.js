@@ -1,0 +1,2 @@
+renderBiografias();
+renderBotonCarrito();

@@ -1,2 +1,5 @@
+
+consumirJSON();
+
 guardarLibrosLS(libros);
 renderLibros();
